@@ -6,7 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-
 @app.route("/upload", methods=['POST'])
 def upload():
     return render_template('repues.html')
