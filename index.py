@@ -11,7 +11,6 @@ def home():
 def upload():
     return render_template('repues.html')
 
-
 if __name__ == '__main__':
  # Iniciamos la aplicación
  app.run(debug=True)
